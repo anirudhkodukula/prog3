@@ -32,6 +32,11 @@ public class Interpreter implements CritterInterpreter {
 
 		return line;
 	}
+	
+	//this parses a number and it understands the 'r'
+	private int toInt(String s){
+		return Integer.parseInt(s.startsWith("r")? s.substring(1) : s);
+	}
 
 	// verifies all args can be parsed into ints
 	// verifies correct amount of args passed to function
@@ -43,7 +48,7 @@ public class Interpreter implements CritterInterpreter {
 		int numericalArgs[] = new int[numberOfArgs];
 		for (int i = 1; i < args.length; i++) {
 			try {
-				numericalArgs[i - 1] = Integer.parseInt(args[i]);
+				numericalArgs[i - 1] = toInt(args[i]);
 			} catch (NumberFormatException e){
 				System.err.println("Failed to parse: " + args[i] + " | from command: " + command);
 				System.exit(-1);
@@ -62,7 +67,7 @@ public class Interpreter implements CritterInterpreter {
 		for (int i = 1; i < args.length; i++) {
 			try {
 				if (i - 1 != jumpIndex) {
-					numericalArgs[i - 1] = Integer.parseInt(args[i]);
+					numericalArgs[i - 1] = toInt(args[i]);
 				} else {
 					numericalArgs[i - 1] = jumpCalculator(args[i], line, c);
 				}
