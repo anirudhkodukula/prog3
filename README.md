@@ -1,10 +1,10 @@
 # Submission Info
 
-Names:
+Names: Anirudh Kodukula & Vishva Rao
 
-EIDs:
+EIDs: adk2753 & vr24656
 
-Emails:
+Emails: vr24656@my.utexas.edu and adk2753@eid.utexas.edu
 
 Time Spent:
 
