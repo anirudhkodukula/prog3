@@ -279,7 +279,7 @@ public class Interpreter implements CritterInterpreter {
 		}
 		reader.close();
 		// splits the text by lines and removes the comments by splitting by double-new-line character
-		String[] lines = input.toString().split("\n\n")[0].split("\n");
+		String[] lines = input.toString().replace("\r", "").split("\n\n")[0].split("\n");
 		ArrayList<String> commands = new ArrayList<String>();
 		String name = "";
 		for (int i = 0; i < lines.length; i++) {
