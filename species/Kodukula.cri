@@ -1,4 +1,4 @@
-Kodiak
+Kodukula & Rao Critter for Competition
 inc r1
 ifenemy 0 57
 ifenemy 225 11
@@ -64,3 +64,5 @@ go 1
 write r1 0
 eat
 go 1
+
+This critter will be winning the competition !!!
