@@ -6,11 +6,11 @@ EIDs: adk2753 & vr24656
 
 Emails: vr24656@my.utexas.edu and adk2753@eid.utexas.edu
 
-Time Spent: 
+Time Spent: 13 hours in total between us two.
 
-Collaborators:
+Collaborators: n/a
 
-Comments:
+Comments: Pair programming details of time spent exactly is written up into the report.
 
 
 # Starter Code Info
