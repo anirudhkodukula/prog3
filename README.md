@@ -6,7 +6,7 @@ EIDs: adk2753 & vr24656
 
 Emails: vr24656@my.utexas.edu and adk2753@eid.utexas.edu
 
-Time Spent:
+Time Spent: 
 
 Collaborators:
 
